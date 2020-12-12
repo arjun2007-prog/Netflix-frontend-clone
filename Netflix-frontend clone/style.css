@@ -1,0 +1,214 @@
+.netflix-logo{
+    padding: 0px;
+    width:170px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 43.7%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Helvetica',Arial,sans-serif;
+    background: #000000;
+    color: #999999;
+}
+h1,h2,h3,h4{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    margin: .5rem 0;
+}
+.showcase{
+    height: 93vh;
+    position: relative;
+    background-image: url("https://i.ibb.co/vXqDmnh/background.jpg") ;
+}
+.showcase-top{
+    position: relative;
+    height: 90px;
+    z-index: 1;
+}
+.sign-in-button{
+    position: absolute;
+    top: 70%;
+    right: 0%;
+}
+.btn{
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: .4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    margin-right: 3rem;
+    border-radius: 3px;
+}
+.rounded{
+    border-radius: 4px;
+}
+.btn-xl{
+  font-size: 2rem;
+  padding: 1.5rem 2.1rem;
+  text-transform: uppercase;
+}
+.btn-lg{
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+}
+.showcase-content{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    z-index: 1;
+}
+.showcase-content h1{
+    font-weight: 700;
+    font-size: 5.2rem;
+    margin: 0 0 2rem;
+}
+.showcase-content p{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+.btn-free{
+    margin-left: 3rem;
+}
+.showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: inset 120px 150px 250px #000000;
+}
+.tabs{
+    background: #141414;
+    padding-top: 1rem;
+    border-bottom: 3px solid #3d3d3d;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    /* padding: 0 2rem; */
+}
+.container > div{
+    padding: 1.5rem 0;
+}
+
+.container > div:hover{
+ color: #ffffff;
+ cursor: pointer;
+}
+
+.tabs p{
+    font-size: 1.2rem;
+    padding-top: .5rem;
+}
+#tab-1{
+    margin-right: 2rem;
+}
+#tab-3{
+    margin-left: 2rem;
+}
+.tab-boder{
+    border-bottom: red 4px solid;
+}
+.container-content{
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 2rem;
+    margin: auto;
+    padding: 0 15rem;
+}
+#tab-1-content .tab-1-content-inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.cancel-logo{
+    width: 350px;
+    height: 300px;
+    margin-left: 10rem;
+    margin-top: 7rem;
+}
+.tab-1-content-inner > div{
+    height: 100%;
+    padding-top: 30%;
+}
+.free-btn{
+    margin-top: 1.5rem;
+}
+.text-xl{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.text-lg{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+.tab-1-content-inner > div{
+    width: 600px;
+}
+.tab-content{
+    padding: 3rem 5rem;
+    background-color: black;
+    color: white;
+}
+.text-dark{
+  color: #999999;
+}
+#tab-2-content .tab-2-content-top{
+    margin-top: 2rem;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-gap: 2rem;
+   justify-content: center;
+   align-items: center;
+}
+.btn-tab-30{
+    padding: 1rem;
+    height: 55px;
+}
+.content-tv{
+    text-align: center;
+    margin-top: 3rem;
+}
+.hide{
+    display: none;
+}
